@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(0, 67, 122);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav i{
+    color: white;
+}
+
+.result-field{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(0, 67, 122);
+}
+
+.result-field p{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.result-field input{
+    border: none;
+    overlay: none;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.result-field button{
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: white;
+}
+
+.operations{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.operations button{
+    font-size: 60px;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    min-width: 100px;
+}
+
+.operations button:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.operations #dot{
+    font-size: 10px;
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+}

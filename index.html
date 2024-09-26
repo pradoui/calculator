@@ -4,15 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a30d0b9946.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header></header>
+    <header>
+        <nav>
+            <i class="fa-solid fa-calculator"></i>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+    </header>
     <main>
-        <input type="number" name="valor1" id="valor1" placeholder="Digite um valor">
-        <input type="number" name="valor2" id="valor2" placeholder="Digite outro valor">
-        <button id="submit" type="submit" onclick="somar()">Calcular</button>
-        <p id="total"></p>
+        <div class="result-field">
+            <div>
+                <p id="history">historico</p>
+                <input id="value-field" type="text">
+            </div>
+            <button id="backspace"><i class="fa-solid fa-backspace"></i></button>
+        </div>
+
+        <div class="operations">
+            <div class="row fst-row">
+                <button id="07" value="7"><i class="fa-solid fa-7"></i></button>
+                <button id="08" value="8"><i class="fa-solid fa-8"></i></button>
+                <button id="09" value="9"><i class="fa-solid fa-9"></i></button>
+                <button id="mult"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="row sec-row">
+                <button id="04" value="4"><i class="fa-solid fa-4"></i></button>
+                <button id="05" value="5"><i class="fa-solid fa-5"></i></button>
+                <button id="06" value="6"><i class="fa-solid fa-6"></i></button>
+                <button id="sub"><i class="fa-solid fa-minus"></i></button>
+            </div>
+            <div class="row trd-row">
+                <button id="01" value="1"><i class="fa-solid fa-1"></i></button>
+                <button id="02" value="2"><i class="fa-solid fa-2"></i></button>
+                <button id="03" value="3"><i class="fa-solid fa-3"></i></button>
+                <button id="adc"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div class="row frt-row">
+                <button id="00" value="0"><i class="fa-solid fa-0"></i></button>
+                <button id="dot" value="."><i class="fa-solid fa-circle"></i></button>
+                <button id="enter"><i class="fa-solid fa-equals"></i></button>
+            </div>
+        </div>
     </main>
     <footer></footer>
 </body>
