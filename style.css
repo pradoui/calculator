@@ -45,7 +45,7 @@ body{
 .result-field button{
     border: none;
     background: none;
-    font-size: 20px;
+    font-size: 1rem;
     color: white;
 }
 
@@ -58,13 +58,13 @@ body{
 }
 
 .operations button{
-    font-size: 60px;
+    font-size: 2rem;
     padding: 20px;
     border: none;
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
-    min-width: 100px;
+    min-width: 80px;
 }
 
 .operations button:hover{

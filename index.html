@@ -21,32 +21,32 @@
                 <p id="history">historico</p>
                 <input id="value-field" type="text">
             </div>
-            <button id="backspace"><i class="fa-solid fa-backspace"></i></button>
+            <button id="backspace" onclick="backspace()"><i class="fa-solid fa-backspace"></i></button>
         </div>
 
         <div class="operations">
             <div class="row fst-row">
-                <button id="07" value="7"><i class="fa-solid fa-7"></i></button>
-                <button id="08" value="8"><i class="fa-solid fa-8"></i></button>
-                <button id="09" value="9"><i class="fa-solid fa-9"></i></button>
+                <button id="07" onclick="typing(7)"><i class="fa-solid fa-7"></i></button>
+                <button id="08" onclick="typing(8)"><i class="fa-solid fa-8"></i></button>
+                <button id="09" onclick="typing(9)"><i class="fa-solid fa-9"></i></button>
                 <button id="mult"><i class="fa-solid fa-xmark"></i></button>
             </div>
             <div class="row sec-row">
-                <button id="04" value="4"><i class="fa-solid fa-4"></i></button>
-                <button id="05" value="5"><i class="fa-solid fa-5"></i></button>
-                <button id="06" value="6"><i class="fa-solid fa-6"></i></button>
-                <button id="sub"><i class="fa-solid fa-minus"></i></button>
+                <button id="04" onclick="typing(4)"><i class="fa-solid fa-4"></i></button>
+                <button id="05" onclick="typing(5)"><i class="fa-solid fa-5"></i></button>
+                <button id="06" onclick="typing(6)"><i class="fa-solid fa-6"></i></button>
+                <button id="sub" onclick="subtraction()"><i class="fa-solid fa-minus"></i></button>
             </div>
             <div class="row trd-row">
-                <button id="01" value="1"><i class="fa-solid fa-1"></i></button>
-                <button id="02" value="2"><i class="fa-solid fa-2"></i></button>
-                <button id="03" value="3"><i class="fa-solid fa-3"></i></button>
-                <button id="adc"><i class="fa-solid fa-plus"></i></button>
+                <button id="01" onclick="typing(1)"><i class="fa-solid fa-1"></i></button>
+                <button id="02" onclick="typing(2)"><i class="fa-solid fa-2"></i></button>
+                <button id="03" onclick="typing(3)"><i class="fa-solid fa-3"></i></button>
+                <button id="adc" onclick="addition()"><i class="fa-solid fa-plus"></i></button>
             </div>
             <div class="row frt-row">
-                <button id="00" value="0"><i class="fa-solid fa-0"></i></button>
-                <button id="dot" value="."><i class="fa-solid fa-circle"></i></button>
-                <button id="enter"><i class="fa-solid fa-equals"></i></button>
+                <button id="00" onclick="typing(0)"><i class="fa-solid fa-0"></i></button>
+                <button id="dot" onclick="typing('.')"><i class="fa-solid fa-circle"></i></button>
+                <button id="enter" onclick="res()"><i class="fa-solid fa-equals"></i></button>
             </div>
         </div>
     </main>
